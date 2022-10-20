@@ -61,7 +61,7 @@ public class C2 {
     }
 
     public static int getInsLen() throws Exception{
-        File file = new File("/Users/dingsongyang/IdeaProjects/SpaceCadets/src/week2/BareBones.txt");
+        File file = new File(".../BareBones.txt");
         FileReader freader = new FileReader(file);
         BufferedReader br = new BufferedReader(freader);
         int num_ins = 0;
@@ -71,7 +71,7 @@ public class C2 {
         return num_ins;
     }
     public static String[] getInsList(int num_ins) throws Exception{
-        File file = new File("/Users/dingsongyang/IdeaProjects/SpaceCadets/src/week2/BareBones.txt");
+        File file = new File(".../BareBones.txt");
         FileReader freader = new FileReader(file);
         BufferedReader br = new BufferedReader(freader);
 
