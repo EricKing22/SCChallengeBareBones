@@ -1,5 +1,5 @@
 # SCChallengeBareBones
-Works for both example with several restrictions:
+Works for both examples with several restrictions:
 1. Only takes 4 variables
 2. The order of the variable used for the while loop is sensitive
 
